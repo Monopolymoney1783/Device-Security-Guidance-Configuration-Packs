@@ -10,11 +10,9 @@
 			<key>AlwaysOn</key>
 			<dict>
 				<key>AllowCaptiveWebSheet</key>
-				<true/>
+				<false/>
 				<key>AllowedCaptiveNetworkPlugins</key>
-				<array/>
-				<key>ServiceExceptions</key>
-				<array/>
+				<array></array>
 				<key>TunnelConfigurations</key>
 				<array>
 					<dict>
@@ -86,7 +84,7 @@
 			<key>IPv4</key>
 			<dict>
 				<key>OverridePrimary</key>
-				<integer>0</integer>
+				<integer>1</integer>
 			</dict>
 			<key>PayloadDescription</key>
 			<string>Configures VPN settings</string>
